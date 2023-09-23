@@ -147,4 +147,5 @@ export function useTodo() {
     const completedTodos = useMemo(() => todos.filter((todo) => todo.account.marked), [todos])
 
     return { initialized, initializeStaticUser, loading, transactionPending, completedTodos, incompleteTodos, markStaticTodo, removeStaticTodo, addStaticTodo, input, setInput, handleChange }
+
 }
