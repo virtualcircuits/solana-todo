@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #181820;
-    --secondary-color: #21212b;
-    --accent-color: #fc76a1;
-    --gray-color: rgb(209 213 219);
+    --primary-color: #000000;
+    --secondary-color: #3b0c5a;
+    --accent-color: #29e08b;
+    --gray-color: #2ec7e2;
 
     /* Font Size */
     --fs-xs: 0.75rem;
